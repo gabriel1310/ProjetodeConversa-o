@@ -1,0 +1,68 @@
+padrão = input("Olá, tudo bem? ")
+
+if padrão == "S":
+  print("SIM")
+elif padrão == "N":
+  print("NÃO")
+else:
+  print("Prossiga")    
+
+op1 = input("Escolha entre 2 opções: ")
+
+if op1 == "S":
+  print("Vamos conversar?")
+else:
+  print("Vamos tentar então um diálogo?") 
+
+op2 = input("Esporte favorito? ")
+
+if op2 == "1":
+  print("Futebol")
+elif op2 == "2":
+  print("Handebol")
+elif op2 == "3":
+  print("Basquete")
+elif op2 == "4":
+  print("Volei")
+else:
+  print("Outro")
+
+op3 = input("É a favor da IA? ")
+
+if op3 == "S":
+  print("Sim, pois ela trará uma visão mais ampla das nossas tecnologias. ")
+elif op3 == "N":
+  print("Não, pois ela não nos dá uma confiança e segurança em máquinas, necessárias. ")    
+  
+op4 = input("Você gosta do seu emprego? ")
+
+if op4 == "S":
+  print("Sim")
+elif op4 == "N":
+  print("Não")
+else:
+  print("Obrigado")
+
+op5 = input("Comida favorita? ")
+
+if op5 == "1":
+  print("Carne de vaca")
+elif op5 == "2":
+  print("Frango")
+elif op5 == "3":
+  print("Porco")
+elif op5 == "4":
+  print("Salada")
+else:
+  print("Outro")  
+
+op6 = input("O que achou dessa pesquisa rápida? ")
+
+if op5 == "1":
+  print("Satisfatória")
+elif op5 == "2":  
+  print("Regular")
+else:
+  print("Ruim")
+
+print("Muito obrigado pela atenção sua atenção")
